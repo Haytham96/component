@@ -1,0 +1,14 @@
+.form-check-input {
+  height: 70px;
+  width: 70%;
+}
+
+.forms {
+  margin-left: 20%;
+}
+
+.borders {
+  height: 5px;
+  background-color: black;
+  width: 70px;
+}

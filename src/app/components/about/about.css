@@ -1,0 +1,39 @@
+.border .borderss {
+  height: 5px;
+  background-color: black;
+  width: 70px;
+}
+
+.container {
+  width: 100%;
+}
+.container img {
+  width: 200px;
+}
+.container .items {
+  width: 400px;
+  height: 250px;
+}
+.container {
+  position: relative;
+}
+
+.container .items {
+  position: relative;
+}
+.container .icon {
+  background-color: #29b198;
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  top: 16px;
+  right: 0;
+  left: 12px;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.container .icon:hover {
+  opacity: 1;
+}
